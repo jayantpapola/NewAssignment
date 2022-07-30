@@ -1,0 +1,45 @@
+.Form{
+    
+    background-color: whitesmoke;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:50px;
+}
+.Form > h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.formRow > input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    border: solid 3px #111;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    color: #111;
+}
+.Form > button{
+    padding: 10px 20px;
+    background-color: royalblue;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.Form > button:hover{
+    background-color: rgb(37, 71, 170);
+}
