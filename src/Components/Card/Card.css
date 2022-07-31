@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
 }
+/* Final Change */
 .card__row > p > p{
     display: flex;
     height: auto;
@@ -22,7 +23,6 @@
     margin: 10px 10px 20px 0;
     font-size: 20px;
     font-weight: bolder;
-    /* width: 200px; */
     background-color: #111;
     color: whitesmoke;
     padding: 10px;
